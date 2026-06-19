@@ -9,9 +9,9 @@ def connect_to_system():
     """Establishes database connection cleanly."""
     return mysql.connector.connect(
         host="localhost",
-        port=3306,
+        port=@@@@,
         user="root",        
-        password="TAKUcollin#19", 
+        password="##############", 
         database="aviation_ops"
     )
 
